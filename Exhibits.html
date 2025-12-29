@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Museum - Exhibition Room</title>
+    <style>
+        /* Basic Reset and Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1em;
+}
+header .logo img {
+    height: 50px;
+}
+nav ul {
+            background-color: rgb(209, 161, 5);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: underline;
+            transition: all 0.5s ease;
+        }
+#exhibition-room {
+    padding: 2em 1em;
+    text-align: center;
+}
+#exhibition-room h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 4px 4px 8px #555;
+    margin-bottom: 1em;
+}
+.panorama {
+    margin-bottom: 2em;
+}
+.panorama img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.exhibit-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+.exhibit {
+    background: darkgray;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.exhibit:hover {
+    transform: translateY(-10px);
+}
+.exhibit img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.exhibit h2 {
+    margin: 1em 0 0.5em;
+}
+.exhibit p {
+    margin-bottom: 1em;
+}
+button {
+    background: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: #555;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.social-links a {
+    margin: 0 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://img.freepik.com/premium-vector/cleopatra-logo-design-template_23-2150130112.jpg?w=996" alt="Logo">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="Exhibits.html" target="_self">Exhibits</a></li>
+            <li><a href="About.html" target="_self">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="exhibition-room">
+        <h1>Exhibition Room</h1>
+        <div class="panorama">
+            <img src="https://img.freepik.com/premium-photo/museum-exhibition-room_923558-5168.jpg" alt="Exhibition Room Panorama">
+        </div>
+        <div class="exhibit-details">
+            <div class="exhibit">
+                <img src="https://static2.tripoto.com/media/transfer/img/OgData/1519640756_collage_fotormm.jpg" alt="Exhibit 1">
+                <h2>Indus Valley Civilization</h2>
+                <p>The Indus Valley Civilization, also known as the Harappan Civilization, is one of the world's earliest urban cultures, flourished around 2500 BCE in what is now Pakistan and northwest India. Known for its advanced city planning, the civilization featured well-organized grid layouts, sophisticated drainage systems, and impressive architectural structures. Major cities like Harappa and Mohenjo-Daro showcased remarkable uniformity in their construction, indicating a highly organized society. The inhabitants engaged in agriculture, trade, and craft production, with evidence of long-distance trade with Mesopotamia. Despite its achievements, the civilization mysteriously declined around 1900 BCE, leaving behind a legacy that continues to intrigue historians and archaeologists.
+
+                </p>
+                <nav>
+                    <ul>
+                        <li><a href="gallery1.html" target="_self">Visit Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="exhibit">
+                <img src="https://brewminate.com/wp-content/uploads/2017/01/Nemrut01.jpg" alt="Exhibit 2">
+                <h2>Mesopotamia Civilization</h2>
+                <p>a small para on ancient mesopotamia civilization
+                    Ancient Mesopotamia, often referred to as the "Cradle of Civilization," was located between the Tigris and Euphrates rivers in what is now modern-day Iraq. This region saw the rise of some of the earliest human civilizations, including the Sumerians, Akkadians, Babylonians, and Assyrians2. Mesopotamians made significant contributions to human history, such as the invention of writing (cuneiform), the wheel, and early forms of mathematics and astronomy. The region's fertile land supported advanced agricultural practices, which in turn supported the growth of cities and complex societies3. Mesopotamia's rich cultural and technological innovations laid the foundation for many aspects of modern civilization.
+                    </p>
+
+                    <nav>
+                        <ul>
+                            <li><a href="gallery2.html" target="_self">Visit Gallery</a></li>
+                        </ul>
+                    </nav>
+                  
+            </div>
+            <div class="exhibit">
+                <img src="https://www.worldatlas.com/upload/cd/b8/03/shutterstock-205544731.jpg" alt="Exhibit 3">
+                <h2>Ancient Egypt</h2>
+                <p>Ancient Egypt, one of the most iconic civilizations in history, thrived along the Nile River for over three millennia. Known for its monumental architecture, such as the pyramids of Giza and the Sphinx, Egypt made significant advancements in writing, art, and science. The civilization was ruled by powerful pharaohs who were considered divine and played a central role in both governance and religion. The Egyptians developed a complex system of hieroglyphics and made remarkable contributions to medicine, mathematics, and engineering. Their rich cultural heritage continues to captivate and inspire people around the world.
+
+                </p>
+                <nav>
+                    <ul>
+                        <li><a href="gallery3.html" target="_self">Visit Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="exhibit">
+                <img src="https://www.thoughtco.com/thmb/broeTu-RBBiTiCDt8Ag2qObHVFY=/2097x1430/filters:fill(auto,1)/the-roman-coliseum-in-the-early-morning-655490208-5a750519875db90037324138.jpg" alt="Exhibit 3">
+                <h2>Ancient Rome</h2>
+                <p>Ancient Rome, one of the most influential civilizations in history, emerged around the 8th century BCE and lasted until the fall of the Western Roman Empire in 476 CE. Known for its remarkable achievements in law, engineering, and architecture, Rome left a lasting legacy on the world. The Romans built extensive road networks, aqueducts, and monumental structures like the Colosseum and the Pantheon. Their legal system, the basis for many modern legal codes, and their contributions to governance, including the concept of the republic, have had a profound impact on Western civilization. The Roman Empire's cultural and technological advancements continue to be studied and admired today.
+        
+                </p>
+                <nav>
+                    <ul>
+                        <li><a href="gallery4.html" target="_self">Visit Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="exhibit">
+                <img src="https://huntington.org/sites/default/files/styles/image_gallery/public/photo-gallery/3_installation_view_blue_boy_huntington_art_gallery_2020.jpg.webp?itok=JxJpxDin" alt="Exhibit 3">
+                <h2>Art Gallery</h2>
+                <p>An art museum, often referred to as an art gallery, is a cultural institution dedicated to the collection, preservation, and exhibition of visual arts, including paintings, sculptures, and other artistic works. These museums serve as vital centers for education and inspiration, offering visitors the opportunity to experience and appreciate the diverse expressions of human creativity. Art museums often host temporary exhibitions, workshops, and educational programs, enriching the cultural landscape and fostering a deeper understanding of the artistic heritage. They play a crucial role in preserving the legacy of artists from various periods and cultures, making art accessible to the public and promoting the appreciation of visual beauty.</p>
+                <nav>
+                    <ul>
+                        <li><a href="gallery5.html" target="_self">Visit Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="exhibit">
+                <img src="https://tourscanner.com/blog/wp-content/uploads/2024/02/Lee-Kong-Chian-Natural-History-Museum-Singapore-1024x683.jpg" alt="Exhibit 3">
+                <h2>Natural History Museum</h2>
+               <ul> <p>Natural history museum collections typically include a wide variety of specimens and artifacts that document the natural world. These collections often feature:
+
+               <li> Fossils: Dinosaur bones, ancient plants, and other prehistoric life forms.</li>
+                    
+               <li> Minerals and Gems</li>
+                    
+               <li> Botanical Specimens</li>
+                    
+               <li> Zoological Specimens</li>
+                    
+               <li> Meteorites: Space rocks that have fallen to Earth.</li>
+                    
+               <li> Taxidermy: Mounted animals for educational displays.</li>
+                    
+                    These collections serve as valuable resources for scientific research, education, and public engagement, helping us understand the history and diversity of life on Earth.</li>
+                </ul>
+                </p>
+                <nav>
+                    <ul>
+                        <li><a href="gallery6.html" target="_self">Visit Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Virtual Museum. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
